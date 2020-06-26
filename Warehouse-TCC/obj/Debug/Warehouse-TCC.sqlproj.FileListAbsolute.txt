@@ -1,0 +1,5 @@
+C:\Users\VTEX\Desktop\TCC\Warehouse-TCC\Warehouse-TCC\bin\Debug\Warehouse-TCC.dacpac
+C:\Users\VTEX\Desktop\TCC\Warehouse-TCC\Warehouse-TCC\obj\Debug\Warehouse_TCC.dll
+C:\Users\VTEX\Desktop\TCC\Warehouse-TCC\Warehouse-TCC\obj\Debug\Warehouse_TCC.pdb
+C:\Users\VTEX\Desktop\TCC\Warehouse-TCC\Warehouse-TCC\bin\Debug\Warehouse_TCC.dll
+C:\Users\VTEX\Desktop\TCC\Warehouse-TCC\Warehouse-TCC\bin\Debug\Warehouse_TCC.pdb

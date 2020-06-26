@@ -1,0 +1,20 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       The type for column Nome in table [dbo].[Campeonato] is currently  NVARCHAR (50) NULL but is being changed to  VARCHAR
+         (50) NULL. Data loss could occur.
+
+** User actions
+     Alter
+       [dbo].[Campeonato] (Table)
+       [dbo].[Partida] (Table)
+
+** Supporting actions
+
+The type for column Nome in table [dbo].[Campeonato] is currently  NVARCHAR (50) NULL but is being changed to  VARCHAR (50) NULL. Data loss could occur.
+

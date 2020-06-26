@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="38c47d00-2601-457a-a255-7f427a274587" ChangeDateTime="05/13/2020 23:00:54">
+    <Property Name="ElementName" Value="[dbo].[Clube].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Clube]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Clubeid" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="e23c7d55-7160-4bac-b869-676515763808" ChangeDateTime="05/13/2020 23:28:00">
+    <Property Name="ElementName" Value="[dbo].[Partida].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Partida]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IdPartida" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="82aee33f-b422-46fb-bfad-6edeb03f2d11" ChangeDateTime="05/13/2020 23:50:20">
+    <Property Name="ElementName" Value="[dbo].[FK_Partida_ToTable]" />
+    <Property Name="ElementType" Value="SqlForeignKeyConstraint" />
+    <Property Name="ParentElementName" Value="[dbo].[Partida]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[FK_Partida_Clube]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="861b654f-386f-4fe2-92f7-3ef762632edd" ChangeDateTime="05/13/2020 23:57:16">
+    <Property Name="ElementName" Value="[dbo].[Partida].[Clubemandante ]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Partida]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Clube1" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="0af1d49a-3358-4aac-9467-cc2ce068bf7e" ChangeDateTime="05/13/2020 23:57:22">
+    <Property Name="ElementName" Value="[dbo].[Partida].[Clubevisitante]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Partida]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Clube2" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="976fc7b6-f55b-4285-aa12-b8df53e95f2c" ChangeDateTime="05/14/2020 00:00:14">
+    <Property Name="ElementName" Value="[dbo].[Campeonato].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Campeonato]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IdCampeonato" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="db3e4e7f-c2c6-44b0-9477-6e3d5eae5f79" ChangeDateTime="05/14/2020 00:02:15">
+    <Property Name="ElementName" Value="[dbo].[Clubes_campeonato].[vitoria]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Clubes_campeonato]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Vitorias" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="c0997336-011b-4531-ad94-217260a53fde" ChangeDateTime="05/14/2020 00:02:40">
+    <Property Name="ElementName" Value="[dbo].[Clubes_campeonato].[Gols Pro]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Clubes_campeonato]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Gols_pro" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="53a5de8d-22a0-4bee-b9bb-6ab498320825" ChangeDateTime="05/14/2020 00:02:47">
+    <Property Name="ElementName" Value="[dbo].[Clubes_campeonato].[Gols ]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Clubes_campeonato]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Gols_contra" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="11b47d8b-2a9a-47c7-9d55-64b4398d802d" ChangeDateTime="05/14/2020 01:02:05">
+    <Property Name="ElementName" Value="[dbo].[Dim_tempo].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Dim_tempo]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="CodDia" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="46c6ad96-cb06-43fb-98b9-1f2642c5899e" ChangeDateTime="05/14/2020 01:11:36">
+    <Property Name="ElementName" Value="[dbo].[Fato_001].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Fato_001]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Clubeid" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="a03aa305-a49f-4b72-bd15-5b674331dec8" ChangeDateTime="05/14/2020 01:11:59">
+    <Property Name="ElementName" Value="[dbo].[Clubes_campeonato].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Clubes_campeonato]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IdCampeonato" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="76495740-1750-4efc-8415-93b0e4a0320a" ChangeDateTime="05/14/2020 01:12:07">
+    <Property Name="ElementName" Value="[dbo].[Clubes_campeonato].[IdCampeonato]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Clubes_campeonato]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IdClubesCampeonato" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="f857ad55-eec4-4a2b-b1bd-5c13e3ecf8d2" ChangeDateTime="05/14/2020 01:12:16">
+    <Property Name="ElementName" Value="[dbo].[Clube].[Clubeid]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Clube]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IdClube" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="2822128b-b804-4a6b-9dbc-9f3d75f43cc4" ChangeDateTime="05/14/2020 01:12:22">
+    <Property Name="ElementName" Value="[dbo].[Fato_001].[Clubeid]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Fato_001]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IdClube" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="7d85fc9f-f573-4bd1-8733-0690c6327877" ChangeDateTime="05/14/2020 01:12:38">
+    <Property Name="ElementName" Value="[dbo].[Dim_tempo].[CodDia]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Dim_tempo]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IdDia" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="863d4137-3d17-4ead-bc56-4c7d4802b4a1" ChangeDateTime="05/14/2020 01:36:15">
+    <Property Name="ElementName" Value="[dbo].[Fato_001].[ProbGols]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Fato_001]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ProbGolsTimeA" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="d40081ca-7635-4b75-8ba3-7d8aec0a10c6" ChangeDateTime="05/14/2020 01:36:19">
+    <Property Name="ElementName" Value="[dbo].[Fato_001].[ProbVitoria]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Fato_001]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ProbVitoriaTimaA" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="1ae6e00a-331e-4777-9432-c282eddb8b93" ChangeDateTime="05/14/2020 01:36:23">
+    <Property Name="ElementName" Value="[dbo].[Fato_001].[ProbEmpate]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Fato_001]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ProbEmpateTimaA" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="1ed9adb6-27dd-48d0-a169-6a2af2090250" ChangeDateTime="05/14/2020 01:36:27">
+    <Property Name="ElementName" Value="[dbo].[Fato_001].[ProbDerrota]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Fato_001]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ProbDerrotaTimaA" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="cc157023-5e5a-41d3-a8cb-3247f8254744" ChangeDateTime="05/14/2020 01:37:16">
+    <Property Name="ElementName" Value="[dbo].[Fato_001].[ProbEm]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Fato_001]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ProbEmpateTimeB" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="4676e0c4-b0d6-4c3b-aa9a-9a7b697c315a" ChangeDateTime="05/17/2020 18:53:22">
+    <Property Name="ElementName" Value="[dbo].[Table1].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Table1]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IdPartida" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="bc657074-acc8-40ad-953a-81dacc15dcc1" ChangeDateTime="05/17/2020 18:53:58">
+    <Property Name="ElementName" Value="[dbo].[Table1].[Da]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Table1]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="DataPartida" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="b663af13-4714-47d9-b31a-dbdadb4c358a" ChangeDateTime="05/17/2020 20:41:23">
+    <Property Name="ElementName" Value="[dbo].[Fato-1].[ProbabilidadeGols]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Fato-1]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ProbabilidadeGolsPro" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="56ad6c0b-7e22-4679-91e7-7511001e2e27" ChangeDateTime="05/17/2020 20:44:36">
+    <Property Name="ElementName" Value="[dbo].[Fato-1].[Clube1]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Fato-1]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Clube" />
+  </Operation>
+</Operations>

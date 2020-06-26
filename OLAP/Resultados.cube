@@ -1,0 +1,671 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="836740d5-7638-4f37-b042-945ebc2b6013" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>DW SOCCER</ID>
+  <Name>Resultados</Name>
+  <CreatedTimestamp>0001-01-01T02:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T02:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="20" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-7496" scrolltop="19" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="20955" y="15050" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Clubes_campeonato" left="20" top="10854" logicalid="10" controlid="1" masterid="0" hint1="0" hint2="0" width="3916" height="3747" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00004c0f0000a30e0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Clubes_campeonato" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Campeonato" left="6336" top="11574" logicalid="11" controlid="2" masterid="0" hint1="0" hint2="0" width="3006" height="2307" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000be0b000003090000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Campeonato" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Partida" left="3181" top="0" logicalid="12" controlid="3" masterid="0" hint1="0" hint2="0" width="3000" height="3747" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b0000a30e0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Partida" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Clube" left="475" top="6147" logicalid="13" controlid="4" masterid="0" hint1="0" hint2="0" width="3006" height="2307" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000be0b000003090000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Clube" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="3636" top="12328" logicalid="14" controlid="5" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_Clubes_campeonato_Campeonato]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="1" sourceattachpoint="12" destattachpoint="21" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="6336" y="12727" />
+              <point x="3936" y="12727" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="1579" top="7955" logicalid="15" controlid="6" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_Clubes_campeonato_Clubes]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="1" sourceattachpoint="5" destattachpoint="6" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="1978" y="8454" />
+              <point x="1978" y="10854" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="4931" top="3447" logicalid="16" controlid="7" masterid="0" hint1="0" hint2="0" width="3308" height="8627" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_Partida_Campeonato]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="3" sourceattachpoint="4" destattachpoint="7" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="7839" y="11574" />
+              <point x="7839" y="7661" />
+              <point x="5231" y="7661" />
+              <point x="5231" y="3747" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="2129" top="3447" logicalid="17" controlid="8" masterid="0" hint1="0" hint2="0" width="2852" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_Partida_Clube2]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="3" sourceattachpoint="6" destattachpoint="5" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="2528" y="6147" />
+              <point x="2528" y="4947" />
+              <point x="4681" y="4947" />
+              <point x="4681" y="3747" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="479" top="3447" logicalid="18" controlid="9" masterid="0" hint1="0" hint2="0" width="3952" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_Partida_Clube1]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="3" sourceattachpoint="0" destattachpoint="3" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="878" y="6147" />
+              <point x="878" y="4947" />
+              <point x="4131" y="4947" />
+              <point x="4131" y="3747" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-7496</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>19</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>75</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T02:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="cb709ff0-b5f1-4fb8-93f2-6185596670f9">
+      <ID>Partida</ID>
+      <Name>Partida</Name>
+      <DimensionID>Partida</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="0bfe4dc9-eb54-4ed2-9b59-0351d27896d5">
+          <AttributeID>Id Partida</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="31836cc7-a8f0-41a9-b398-602a3c7947c5">
+          <AttributeID>Data Partida</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="96802240-e853-4ed4-a5b9-333963cb03dd">
+          <AttributeID>Gols Mandante</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="bd8a91e8-c757-454f-8180-3a846cab6046">
+          <AttributeID>Gols Visitante</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="720fa31a-4e87-44f2-842c-0aa6ac285683">
+          <AttributeID>Id Clube</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="670cbaf3-d9bd-4711-bfc9-269ee3a81708">
+          <AttributeID>Nome Clube</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8ebf26e9-451d-4e96-8ad2-6b873c3503bf">
+          <AttributeID>Uf Clube</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="27f40a16-8cb3-48a4-90d8-62d3b3a3a694">
+          <AttributeID>Data Fundacao</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d74b0218-3648-4979-adbc-b771a60c9e68">
+          <AttributeID>Id Campeonato</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="7a9d7f90-be53-46c2-b0d9-2b3401f3582d">
+          <AttributeID>Nome</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="1ba8c578-e9c5-477f-a4c6-3d0d1216284d">
+          <AttributeID>Data Inicio</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="044b906f-e7ed-4055-a63a-6b7c5b573e12">
+          <AttributeID>Data Fim</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="057703e8-ff8b-4f3a-bd3c-eca16240d178">
+          <HierarchyID>Hierarquia</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="92bcf0d5-c848-4c79-91bb-231795dc5590">
+      <ID>Clube2</ID>
+      <Name>Clube2</Name>
+      <DimensionID>Clube</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="af59f3a1-6f72-46c3-881d-2eacc101f2fa">
+          <AttributeID>Id Clube</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3a938d80-ff5a-4147-b75d-c049c4b6cb83">
+          <AttributeID>Nome Clube</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="7e473607-11b8-43ce-bc75-dbda3881c28d">
+          <AttributeID>Uf Clube</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="32b65da5-c797-442c-b609-84da5570b255">
+          <AttributeID>Data Fundacao</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="cc8463f4-d2ae-4da9-8fda-010408d535b6">
+          <HierarchyID>Hierarquia</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="05e58374-e6d5-490a-942f-0a2233ea9ed9">
+      <ID>Clube1</ID>
+      <Name>Clube1</Name>
+      <DimensionID>Clube</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="3c762d16-aa3e-4dad-ae84-0f7f21106e53">
+          <AttributeID>Id Clube</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="7d7fd6f2-21c5-4781-a6d5-1de0d2b85d54">
+          <AttributeID>Nome Clube</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="254cf83b-4f7f-4898-8d7a-11d4618c34b6">
+          <AttributeID>Uf Clube</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9feb0095-cc2b-4508-b695-e5302f0d8464">
+          <AttributeID>Data Fundacao</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="1d3f064a-6d01-4964-af91-5eab331023b4">
+          <HierarchyID>Hierarquia</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="c4f52751-c0ec-4f33-8a88-8b4039ef0f6f">
+      <ID>Clubes Campeonato</ID>
+      <Name>Clubes Campeonato</Name>
+      <DimensionID>Clubes Campeonato</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="1a8f839b-1dd2-4572-a6c8-ceb13fa79dc8">
+          <AttributeID>Id Clubes Campeonato</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="398aea48-6faa-4531-bdcd-a22527c60646">
+          <AttributeID>Vitorias</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="2945a8cd-6e5e-4f53-b81b-606e951139f8">
+          <AttributeID>Derrotas</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d964e700-daf5-4d04-8622-92f0ae6d30bc">
+          <AttributeID>Empates</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="61c86904-7f48-4ca1-bc5b-53a0b22bab22">
+          <AttributeID>Gols Pro</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="29d80c21-0942-43ac-a32e-20068bf01df1">
+          <AttributeID>Gols Contra</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b97d2034-17da-41aa-a3b6-2b8d8940192e">
+          <AttributeID>Id Clube</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="29d49ad0-f444-4673-918c-bae4daa1eaa4">
+          <AttributeID>Nome Clube</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ff86d456-636f-4442-b962-f163f7bdce94">
+          <AttributeID>Uf Clube</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="4ebca90b-3ce7-4fb1-a83e-7aee70193d9e">
+          <AttributeID>Data Fundacao</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="243bbf82-3e65-4c63-ae26-48e2708e31fb">
+          <AttributeID>Id Campeonato</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="79773a2a-8636-4809-b342-a6fafc7f61ab">
+          <AttributeID>Nome</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a4ca68d8-8016-4805-b81f-6e63b6c0d875">
+          <AttributeID>Data Inicio</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c456dca3-1a96-457d-aa6d-7456e2da25aa">
+          <AttributeID>Data Fim</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="bb8c3d4f-bcfb-47aa-968e-ab16ba323ed8">
+          <HierarchyID>Hierarquia</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="1435c4ca-b565-4d84-8963-81d74dd72424">
+      <ID>Campeonato</ID>
+      <Name>Campeonato</Name>
+      <DimensionID>Campeonato</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="27838840-1933-4b07-9be3-81675e0d8dae">
+          <AttributeID>Id Campeonato</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d52f0e62-1130-4b04-ae06-b680e16de7fc">
+          <AttributeID>Nome</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="91d693e9-7cd5-4671-8349-6c06a1fa6b48">
+          <AttributeID>Data Inicio</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6c04a441-c37b-40db-b4f9-1842e0a16f84">
+          <AttributeID>Data Fim</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="0980ad17-b0fd-4584-b33f-aa6cd1d6bde5">
+          <HierarchyID>Hierarquia</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="9933c006-6ac8-4c8c-b34a-cf24ccf50190">
+      <ID>Partida</ID>
+      <Name>Partida</Name>
+      <CreatedTimestamp>0001-01-01T02:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T02:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T02:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="7fc03604-4970-4a02-b0f0-2adf11927333">
+          <ID>Gols Mandante</ID>
+          <Name>Gols Mandante</Name>
+          <Source dwd:design-time-name="ead03489-e761-4e35-8eec-c68a124aa9db">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="fbed5430-9918-4588-bbff-a3f9811ec46e">
+              <TableID>dbo_Partida</TableID>
+              <ColumnID>golsMandante</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="a8769639-2fbf-4e2d-aa4c-dcfec94e926f">
+          <ID>Gols Visitante</ID>
+          <Name>Gols Visitante</Name>
+          <Source dwd:design-time-name="5111a299-b53c-4a8c-9f56-7ba75450d224">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="0a920b30-3b87-4f01-82a3-e2d0810fc1ce">
+              <TableID>dbo_Partida</TableID>
+              <ColumnID>golsVisitante</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="5015625d-e5e4-489d-9e52-000e38587817">
+          <ID>Contagem Partida</ID>
+          <Name>Contagem Partida</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="81274a76-817c-4bd8-9d3b-dc018d57eccb">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="cfa16faa-2323-40ab-a648-81182aa7633d">
+              <TableID>dbo_Partida</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="82c4c3ce-6d0f-4880-ace9-fa33cc7cb254">
+          <CubeDimensionID>Partida</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="0506cb20-e67d-4461-aef0-946d00005b5b">
+              <AttributeID>Id Partida</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="676bf062-21fb-458b-8307-25b39d9db6ae">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="29d4bd12-bd23-4a35-8ed9-30256a1c9642">
+                    <TableID>dbo_Partida</TableID>
+                    <ColumnID>IdPartida</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="259ab234-2d15-4ae6-9c5a-6488b9e7a2b6">
+          <CubeDimensionID>Clube2</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="56e2e87a-be8e-4593-85b9-71c5b8bfebdc">
+              <AttributeID>Id Clube</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="eb6cbc5c-a202-47ad-953c-d0e9038e5cc5">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="47e11f50-7ac6-4949-8a96-aadf05688868">
+                    <TableID>dbo_Partida</TableID>
+                    <ColumnID>Clube2</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="5f3fe8e7-bca7-4eba-aed5-85891b8e12d9">
+          <CubeDimensionID>Campeonato</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="fffdde5f-4e3f-427b-89f1-35dc2500bd86">
+              <AttributeID>Id Campeonato</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="d68b1864-219d-4900-a392-9b43509a608b">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="b016fd58-79da-482c-a249-33cabf4485a5">
+                    <TableID>dbo_Partida</TableID>
+                    <ColumnID>Idcampeonato</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="3f3ac4c1-376f-4cc3-808e-1ceadc7433f2">
+          <CubeDimensionID>Clube1</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="93e1df49-5566-4ed0-8307-b963ff2c9794">
+              <AttributeID>Id Clube</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="6beef615-7cf1-429e-876f-c03d36f2bcdf">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="0d913a0b-ac02-4ed2-ab79-f6c1a93d0670">
+                    <TableID>dbo_Partida</TableID>
+                    <ColumnID>Clube1</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="5a4d2917-01f3-430d-ad02-88a95a00f7d5">
+      <ID>Clubes Campeonato</ID>
+      <Name>Clubes Campeonato</Name>
+      <CreatedTimestamp>0001-01-01T02:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T02:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T02:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="15a0758f-e6ad-4490-b75e-a94feddf4935">
+          <ID>Vitorias</ID>
+          <Name>Vitorias</Name>
+          <Source dwd:design-time-name="f3cfd8ce-f549-4faa-aaa2-bc6623c9cb5b">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="3e1d2166-edea-4a4b-9205-96058f1baa6f">
+              <TableID>dbo_Clubes_campeonato</TableID>
+              <ColumnID>Vitorias</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="623f3446-4485-4575-aef7-4082612609e0">
+          <ID>Derrotas</ID>
+          <Name>Derrotas</Name>
+          <Source dwd:design-time-name="368dd0ac-aa78-49d0-9c34-25e9d54ce346">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="bf5e9253-7f24-4caa-ad51-e07b19a028d8">
+              <TableID>dbo_Clubes_campeonato</TableID>
+              <ColumnID>Derrotas</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="ce7bcc61-6334-4a38-a989-0c47f5794a18">
+          <ID>Empates</ID>
+          <Name>Empates</Name>
+          <Source dwd:design-time-name="6683e2a2-1533-472f-a0b4-1f179c22d0f8">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="4baeb847-c0f4-4d52-8cc1-62132a97f1cb">
+              <TableID>dbo_Clubes_campeonato</TableID>
+              <ColumnID>Empates</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="9de66b66-3fd8-4614-94d0-ee33e2fef5e2">
+          <ID>Gols Pro</ID>
+          <Name>Gols Pro</Name>
+          <Source dwd:design-time-name="dc3cc0ff-6587-4400-9854-30e8295cc61c">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="7dcfe048-fd28-429c-9d3d-9c36dac6c6d9">
+              <TableID>dbo_Clubes_campeonato</TableID>
+              <ColumnID>Gols_pro</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="6036a6ca-155f-433f-8277-409469b784e1">
+          <ID>Gols Contra</ID>
+          <Name>Gols Contra</Name>
+          <Source dwd:design-time-name="99a3c203-26ee-40ec-ab62-d06da9d7b1c5">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="621acdd4-542a-4176-b1dc-4053d2e7d4a5">
+              <TableID>dbo_Clubes_campeonato</TableID>
+              <ColumnID>Gols_contra</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="f86d9292-3d05-4775-bd0b-8e0d90905097">
+          <ID>Contagem Clubes Campeonato</ID>
+          <Name>Contagem Clubes Campeonato</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="8dcc8f6b-7694-41fe-adbb-904a3ba62568">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="924147a5-fc18-4f1d-ae69-205769558d8d">
+              <TableID>dbo_Clubes_campeonato</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="0001d7fe-3106-4b5b-895c-4ab935f34885">
+          <CubeDimensionID>Clubes Campeonato</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="24a1fba1-a1fe-4755-8773-3baa0ae3b130">
+              <AttributeID>Id Clubes Campeonato</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="9c478d4d-d4d8-4d22-b559-f8233a55efcd">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="9ee30bf9-c7b0-4ee5-9750-48e9294cb1cb">
+                    <TableID>dbo_Clubes_campeonato</TableID>
+                    <ColumnID>IdClubesCampeonato</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="c705c54d-82ee-49fb-8d74-0aee19d3e735">
+          <CubeDimensionID>Campeonato</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="c7b15ef0-3839-4f7e-9347-516d7feaf5e5">
+              <AttributeID>Id Campeonato</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="4f14a84b-96ae-454d-83ed-c2d538d66acc">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="4b8b13d0-2f8b-4be0-81a1-7f649cea7270">
+                    <TableID>dbo_Clubes_campeonato</TableID>
+                    <ColumnID>Codigo_campeonato</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="6bbcf863-812b-4f4d-a817-1f35397bbffb">
+          <CubeDimensionID>Clube2</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="b51aeefd-c216-4498-8d07-0b6694537838">
+              <AttributeID>Id Clube</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="e33a438c-9866-48b8-84b2-7442961a80a2">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="836bd8cd-065f-40e1-bcdd-25149f000468">
+                    <TableID>dbo_Clubes_campeonato</TableID>
+                    <ColumnID>Codigo_clube</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="f1fe9fec-6625-45a3-9d30-0653bb5e2fa2">
+    <DataSourceViewID>DW SOCCER</DataSourceViewID>
+  </Source>
+  <MdxScripts>
+    <MdxScript dwd:design-time-name="14ff2e4b-5437-43f5-a6c9-c0c7e74f835a">
+      <ID>MdxScript</ID>
+      <Name>MdxScript</Name>
+      <CreatedTimestamp>0001-01-01T02:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T02:00:00Z</LastSchemaUpdate>
+      <Commands>
+        <Command>
+          <Text>/*
+O comando CALCULATE controla a agregação de células folha no cubo.
+Se o comando CALCULATE for excluído ou modificado, os dados dentro do cubo serão afetados.
+Você deverá editar esse comando apenas se especificar manualmente a forma como o cubo é agregado.
+*/
+CALCULATE;  
+CREATE MEMBER CURRENTCUBE.[Measures].[Media-de-Gols]
+ AS ([Measures].[Gols Mandante] + [Measures].[Gols Visitante] )/[Measures].[Contagem Partida], 
+VISIBLE = 1;  
+CREATE MEMBER CURRENTCUBE.[Measures].[Media-Gols-Mandante]
+ AS [Measures].[Gols Mandante]/[Measures].[Contagem Partida], 
+VISIBLE = 1;  
+CREATE MEMBER CURRENTCUBE.[Measures].[Media-Gols-Visitante]
+ AS [Measures].[Gols Visitante]/[Measures].[Contagem Partida], 
+VISIBLE = 1; 
+CREATE MEMBER CURRENTCUBE.[Measures].[Mais-de-um-gol]
+ AS [Measures].[Gols Mandante]+[Measures].[Gols Visitante]/[Measures].[Contagem Partida], 
+VISIBLE = 1  ; </Text>
+        </Command>
+      </Commands>
+    </MdxScript>
+  </MdxScripts>
+</Cube>

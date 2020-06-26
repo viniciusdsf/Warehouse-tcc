@@ -1,0 +1,453 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="0a3000dd-96ee-403c-be1d-7c96caa207dd" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Clubes Campeonato</ID>
+  <Name>Clubes Campeonato</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="6" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="95" scrolltop="-3054" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="7324" y="11367" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Clube" left="6336" top="720" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3006" height="2307" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000be0b000003090000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Clube" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Clubes_campeonato" left="20" top="0" logicalid="2" controlid="2" masterid="0" hint1="0" hint2="0" width="3916" height="3747" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00004c0f0000a30e0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Clubes_campeonato" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Campeonato" left="475" top="6147" logicalid="3" controlid="3" masterid="0" hint1="0" hint2="0" width="3006" height="2307" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000be0b000003090000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Campeonato" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="3636" top="1474" logicalid="4" controlid="4" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_Clubes_campeonato_Clubes]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="2" sourceattachpoint="12" destattachpoint="21" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="6336" y="1873" />
+              <point x="3936" y="1873" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="1579" top="3447" logicalid="5" controlid="5" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_Clubes_campeonato_Campeonato]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="2" sourceattachpoint="4" destattachpoint="7" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="1978" y="6147" />
+              <point x="1978" y="3747" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>95</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-3054</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>75</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="7c003157-0b82-4c26-8c4b-6f6691cc18f3">
+    <DataSourceViewID>DW SOCCER</DataSourceViewID>
+  </Source>
+  <UnknownMember>Visible</UnknownMember>
+  <ErrorConfiguration dwd:design-time-name="5c130cd6-5402-4d6b-a259-af8db4bd875c">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="4bda54d1-c337-4d17-8c0f-e93b483c223b">
+      <ID>Id Clubes Campeonato</ID>
+      <Name>Id Clubes Campeonato</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="7f90a6dc-2382-471f-8852-686e78b5f800">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="81272aa6-5947-46a4-936b-a164439f53e5">
+            <TableID>dbo_Clubes_campeonato</TableID>
+            <ColumnID>IdClubesCampeonato</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="80923e2d-56db-4a98-bbc1-7192a7428f64">
+          <AttributeID>Vitorias</AttributeID>
+          <Name>Vitorias</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="db9d808e-3c57-41ef-8ab6-cf3ce85c2bf8">
+          <AttributeID>Derrotas</AttributeID>
+          <Name>Derrotas</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="bb4c7606-a289-4d6d-ad00-bc57e063932d">
+          <AttributeID>Empates</AttributeID>
+          <Name>Empates</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="dfc45388-373e-466f-ada1-dde01a814a40">
+          <AttributeID>Gols Pro</AttributeID>
+          <Name>Gols Pro</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="9b650814-8f15-4a5b-8470-a3295f87458d">
+          <AttributeID>Gols Contra</AttributeID>
+          <Name>Gols Contra</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="6fa4280c-790e-4937-b476-8ffcb626a0ee">
+          <AttributeID>Id Clube</AttributeID>
+          <Name>Id Clube</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="fe90a992-6763-431b-8f6f-ac300a747d8e">
+          <AttributeID>Id Campeonato</AttributeID>
+          <Name>Id Campeonato</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="be44c25e-536f-4473-be85-3d43b2f2649c">
+      <ID>Vitorias</ID>
+      <Name>Vitorias</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="47497cf1-8bee-4211-9f52-05ce232a2167">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="4f44d697-d670-4f3e-b0b3-6320cf9835b4">
+            <TableID>dbo_Clubes_campeonato</TableID>
+            <ColumnID>Vitorias</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="4b6fb75e-6b61-454a-bdf5-600546e441e3">
+      <ID>Derrotas</ID>
+      <Name>Derrotas</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="a5ef4250-ae95-4b38-8f4c-7d7e6c4cdbac">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="709308aa-5c32-4ed8-9320-74406bc9ecbf">
+            <TableID>dbo_Clubes_campeonato</TableID>
+            <ColumnID>Derrotas</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="fb5526a9-a286-4f0e-bb4b-567bb9b6ad6a">
+      <ID>Empates</ID>
+      <Name>Empates</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d0757e88-aafb-4d7e-81ea-44e5283a8eab">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="52fad5e8-3114-4304-818f-9b511a7cc8cb">
+            <TableID>dbo_Clubes_campeonato</TableID>
+            <ColumnID>Empates</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="3be87de2-6e1d-45a0-a92c-109419431c66">
+      <ID>Gols Pro</ID>
+      <Name>Gols Pro</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d084a410-c3db-4402-bbe8-e2353a1ab1bc">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d368c208-f08b-4401-85b9-16a3b91fef36">
+            <TableID>dbo_Clubes_campeonato</TableID>
+            <ColumnID>Gols_pro</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="bd973f91-162a-4b8e-bbaf-4f5718cc437a">
+      <ID>Gols Contra</ID>
+      <Name>Gols Contra</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="284a9ab1-838f-4254-889f-d26b4c4c6b67">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="8453b829-a5dd-42d9-81f0-d4cde5ba35d9">
+            <TableID>dbo_Clubes_campeonato</TableID>
+            <ColumnID>Gols_contra</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="f0f58265-d108-4837-a651-aa342270d58b">
+      <ID>Id Clube</ID>
+      <Name>Id Clube</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="1e933512-a956-4f41-bd3a-787cd05318e2">
+          <NullProcessing>UnknownMember</NullProcessing>
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="003596c7-4376-410c-a486-689bd2e1cbe7">
+            <TableID>dbo_Clube</TableID>
+            <ColumnID>IdClube</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="f4019470-b320-4146-821e-1909f87c792d">
+          <AttributeID>Nome Clube</AttributeID>
+          <Name>Nome Clube</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="ea32000f-dea8-4cb9-bc41-13f2b09e5870">
+          <AttributeID>Uf Clube</AttributeID>
+          <Name>Uf Clube</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="ad927b75-77bf-4a27-a85d-7b753cdb51b9">
+          <AttributeID>Data Fundacao</AttributeID>
+          <Name>Data Fundacao</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="d85b2ee8-66f7-4288-815e-56f3a66bb47b">
+      <ID>Nome Clube</ID>
+      <Name>Nome Clube</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="dc196ae1-4699-4016-b9ab-be8b5f4c933d">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="be1fe32f-e373-4b61-88c8-962e57a6e968">
+            <TableID>dbo_Clube</TableID>
+            <ColumnID>nomeClube</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="428bbe28-64ab-4336-8173-10b9dcc9b872">
+      <ID>Uf Clube</ID>
+      <Name>Uf Clube</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="2faa4301-927f-4f08-8761-4cb41435a09f">
+          <DataType>WChar</DataType>
+          <DataSize>2</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="027d12db-f119-4325-b1ae-54ad50769685">
+            <TableID>dbo_Clube</TableID>
+            <ColumnID>ufClube</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="9b1d6638-ca68-4654-b12d-34f3792b29b1">
+      <ID>Data Fundacao</ID>
+      <Name>Data Fundacao</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d140e9d9-4fb4-48a6-9df3-62eb4bc819ac">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="8882b8a5-ff8c-428e-b56b-60cdb28464ea">
+            <TableID>dbo_Clube</TableID>
+            <ColumnID>dataFundacao</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="560d1ec1-238f-4cc9-a321-95b8ddda946e">
+      <ID>Id Campeonato</ID>
+      <Name>Id Campeonato</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="42b063d3-b98d-44c0-987b-dd08d3f84135">
+          <NullProcessing>UnknownMember</NullProcessing>
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="062c8736-cd8e-4323-b743-4ed1bb54b6c2">
+            <TableID>dbo_Campeonato</TableID>
+            <ColumnID>IdCampeonato</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="a2312375-01a3-4328-a172-a2be900acee1">
+          <AttributeID>Nome</AttributeID>
+          <Name>Nome</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="7a418460-807b-4284-8c07-e98499fa64a6">
+          <AttributeID>Data Inicio</AttributeID>
+          <Name>Data Inicio</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="53bb2545-9399-4ef0-834f-35c642d0b7a0">
+          <AttributeID>Data Fim</AttributeID>
+          <Name>Data Fim</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="c7fd1631-06e7-4992-b82e-c37a0c480bae">
+      <ID>Nome</ID>
+      <Name>Nome</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="9669813b-2c4f-4b03-94d9-cdf975fa7a72">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="9d1f480a-c3e4-4bf0-8dc6-3dc0813fc307">
+            <TableID>dbo_Campeonato</TableID>
+            <ColumnID>Nome</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="edaa3f16-7af1-4df8-8263-b6634c16f1fc">
+      <ID>Data Inicio</ID>
+      <Name>Data Inicio</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="84049fed-996c-4cfc-a7a8-498dca654b9f">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="5d63d9f6-f022-4d73-8206-1d81ad1fd5eb">
+            <TableID>dbo_Campeonato</TableID>
+            <ColumnID>Data_inicio</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="beaa627a-9153-42f1-ad56-5d3b4ca51195">
+      <ID>Data Fim</ID>
+      <Name>Data Fim</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="a7765046-f235-4a62-9b67-f6c8c485c58d">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="330ca1be-3799-40c1-b74a-a34964b76f1f">
+            <TableID>dbo_Campeonato</TableID>
+            <ColumnID>Data_fim</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="adc9e68f-bebf-4342-b809-7d27fa523260">
+      <ID>Hierarquia</ID>
+      <Name>Hierarquia</Name>
+      <Levels>
+        <Level dwd:design-time-name="7064f1e0-d867-4870-a7ff-7493c55e1a00">
+          <ID>Id Clubes Campeonato</ID>
+          <Name>Id Clubes Campeonato</Name>
+          <SourceAttributeID>Id Clubes Campeonato</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="aa199206-915a-49e3-96ba-3dee711eedd0">
+          <ID>Id Clube</ID>
+          <Name>Id Clube</Name>
+          <SourceAttributeID>Nome Clube</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="1c19eefb-578e-494b-a460-59fb50716c08">
+          <ID>Id Campeonato</ID>
+          <Name>Id Campeonato</Name>
+          <SourceAttributeID>Nome</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

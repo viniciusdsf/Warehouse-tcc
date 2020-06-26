@@ -1,0 +1,24 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Rename
+       [dbo].[Clubes_campeonato].[IdClubesCampeonato] (Column)
+       [dbo].[Clube].[IdClube] (Column)
+       [dbo].[Dim_tempo].[IdDia] (Column)
+     Create
+       [dbo].[Fato_001] (Table)
+       [dbo].[FK_Fato_001_Clube] (Foreign Key)
+       [dbo].[FK_Fato_001_Partida] (Foreign Key)
+       [dbo].[FK_Fato_001_Campeonato] (Foreign Key)
+       [dbo].[FK_Fato_001_Clubes_campeonato] (Foreign Key)
+       [dbo].[FK_Fato_001_Dim_tempo] (Foreign Key)
+
+** Supporting actions

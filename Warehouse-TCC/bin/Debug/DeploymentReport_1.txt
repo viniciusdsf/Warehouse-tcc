@@ -1,0 +1,17 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[Partida] (Table)
+       [dbo].[FK_Partida_Clube1] (Foreign Key)
+       [dbo].[FK_Partida_Clube2] (Foreign Key)
+
+** Supporting actions
